@@ -537,17 +537,34 @@ a {
 
 /* Support Campaign Area css
 ============================================================================================ */
+.support_campaign {
+    
+background-color: transparent;
+padding-bottom: 60px;
+padding-top: 90px;
+border: 1px solid #ddd;
+    
+}
+
+.progress-bar {
+background-color: #ffc107!important; }
+
+.progress{
+height: 1.7rem; }
+
+
 .support_campaign .campaign_box {
-  box-shadow: 0px 7px 31px 0px #dddddd; }
-  .support_campaign .campaign_box .camppaign {
+
+}
+  .support_campaign .campaign_box .campaign {
     position: relative;
     padding: 16px; }
     .support_campaign .campaign_box .camppaign .img-box {
       margin-right: 20px; }
   .support_campaign .campaign_box .progress {
     overflow: visible;
-    height: 6px;
-    background: rgba(234, 44, 88, 0.23);
+    height: 17px;
+    background-color: #ea2c58;
     border-radius: 0px; }
     .support_campaign .campaign_box .progress .progress-bar {
       background-color: #ea2c58; }
@@ -555,8 +572,28 @@ a {
         position: absolute;
         top: 32%;
         color: #777777;
-        font-size: 14px;
+        font-size: 19px;
         left: 46%; }
+
+        
+               
+        .support_campaign .raised span {
+        position: absolute;
+        top: -15%;
+        color: #777777;
+        color: #222222;
+        font-weight: 600;
+        font-size: 31px;
+        left: 5%; }
+
+        
+        .support_campaign .card_inner_body h4 {
+        color: #777777;
+        padding-top: 27px;
+        font-weight: 600;
+        font-size: 19px;
+        }
+
         @media (max-width: 1224px) {
           .support_campaign .campaign_box .progress .progress-bar span {
             left: 58%; } }
@@ -566,6 +603,7 @@ a {
         @media (max-width: 480px) {
           .support_campaign .campaign_box .progress .progress-bar span {
             left: 68%; } }
+
 
 /* Support Campaign Area css
 ============================================================================================ */
