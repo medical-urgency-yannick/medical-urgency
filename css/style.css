@@ -541,8 +541,8 @@ a {
     
 background-color: transparent;
 padding-bottom: 60px;
-padding-top: 90px;
-border: 1px solid #ddd;
+padding-top: 60px;
+margin-bottom: 40px;
     
 }
 
@@ -558,12 +558,12 @@ height: 1.7rem; }
 }
   .support_campaign .campaign_box .campaign {
     position: relative;
-    padding: 16px; }
+    padding: 0px; }
     .support_campaign .campaign_box .camppaign .img-box {
       margin-right: 20px; }
   .support_campaign .campaign_box .progress {
     overflow: visible;
-    height: 17px;
+    height: 15px;
     background-color: #ea2c58;
     border-radius: 0px; }
     .support_campaign .campaign_box .progress .progress-bar {
@@ -572,18 +572,18 @@ height: 1.7rem; }
         position: absolute;
         top: 32%;
         color: #777777;
-        font-size: 19px;
+        font-size: 15px;
         left: 46%; }
 
         
                
         .support_campaign .raised span {
         position: absolute;
-        top: -15%;
+        top: -105%;
         color: #777777;
         color: #222222;
         font-weight: 600;
-        font-size: 31px;
+        font-size: 22px;
         left: 5%; }
 
         
